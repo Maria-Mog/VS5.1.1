@@ -40,8 +40,8 @@ namespace VS5._1._6
                 
             }
             int sum1 = n11 + n12 + n13;
-            int sum2 = n21 + n22 + n23;
-            int sum3 = n31 + n32 + n33;
+            int sum2 = n11 + n21 + n31;
+            int sum3 = n11 + n22 + n33;
             if ((sum1 == sum2) && (sum1 == sum3))
             {
                 Console.WriteLine("Получили магический квадрат");
